@@ -18,13 +18,19 @@
     background-color: #3b5d50;
 }
 
-/* main page css */
-/* nav */
 .navbar-brand {
     font-weight: 700;
     font-size: 30px;
-    width: 70%;
 }
+.navbar-toggler {
+    width: 10%;
+    margin: 0px 10px;
+}
+
+.navbar-toggler-icon {
+    margin: 0px -15px;
+}
+
 
 .navbar-nav {
     width: 100%;
@@ -36,28 +42,34 @@
     font-size: 16px;
     text-align: center;
     display: block;
+    position: relative;
+}
+
+.demo {
+    text-align: center;
+    display: block;
+    width: 100px;
 }
 
 .demo::before {
     content: "";
-    width: 2.5%;
-    height: 3px;
+    display: block;
+    width: 0%;
+    height: 5px;
     background-color: yellow;
     position: absolute;
-    transform: scaleX(0);
-    transition: all 1s ease-in-out;
-    top: 50px;
-    color: red;
-    margin: 0 auto;
+    transition: all 0.1s ease-in-out;
+    top: 40px;
+    left: 25px;
+    visibility: hidden;
 }
 
 .demo:hover::before {
-    transform: scaleX(1);
+    /* transform: scaleX(1); */
+    visibility: visible;
+    width: 50%;
 }
 
-.navbar-toggler-icon {
-    margin: 0px -10px;
-}
 
 .navbar-nav .second {
     margin: 0px;
@@ -79,7 +91,7 @@
 }
 
 .intro-expert h1 {
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 750;
     color: white;
 }
@@ -97,6 +109,7 @@
 .product-section-01 {
     position: relative;
     height: 450px;
+    display: block;
 }
 
 .product-img {
@@ -138,7 +151,8 @@ a:hover {
 }
 
 .plus-sembol {
-    display: none;
+    /* display: none; */
+    visibility: hidden;
     width: 20%;
     background-color: black;
     color: white;
@@ -150,7 +164,7 @@ a:hover {
 }
 
 a:hover>.plus-sembol {
-    display: block;
+    visibility: visible;
 }
 
 
@@ -170,7 +184,6 @@ a:hover>.plus-sembol {
     font-size: 20px;
 }
 
-/* why choose section*/
 .why-choose-section {
     width: 100%;
     padding: 100px 0px;
@@ -181,7 +194,8 @@ a:hover>.plus-sembol {
 }
 
 .feature .icon {
-    width: 15%;
+    width: 25%;
+    margin: 0 auto;    
 }
 
 .feature h3 {
@@ -194,7 +208,7 @@ a:hover>.plus-sembol {
 
 .img-box {
     position: relative;
-    /* margin: 30px; */
+    margin: 12px;
 }
 
 .why-choose-us-photo {
@@ -319,7 +333,7 @@ a:hover>.plus-sembol {
     font-size: 13px;
 }
 
-.btn-info{
+.btn-info {
     width: 100%;
 }
 
@@ -348,6 +362,7 @@ a:hover>.plus-sembol {
 }
 
 .post-thumbnail img {
+    width: 100%;
     border-radius: 20px;
     cursor: pointer;
 }
@@ -395,6 +410,7 @@ footer {
     padding: 10px 10px;
     border: 1px solid gray;
     margin: 0px 10px;
+    text-indent: 10px;
 }
 
 .email-txt {
@@ -402,6 +418,7 @@ footer {
     padding: 10px 10px;
     border: 1px solid gray;
     margin: 0px 10px;
+    text-indent: 10px;
 }
 
 .send-btn {
@@ -437,7 +454,7 @@ ul>li {
     margin: 10px 0px;
 }
 
-.customoe-icon li{
+.customoe-icon li {
     margin: 10px 10px;
     width: 50px;
     margin-left: 0px;
