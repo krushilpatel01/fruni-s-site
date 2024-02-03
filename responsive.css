@@ -1,4 +1,4 @@
-@media only screen and (min-width: 425px) {
+@media only screen and (min-width: 525px) {
     .navbar-brand {
         width: 30%;
         font-size: 20px;
@@ -213,13 +213,13 @@
 
 }
 
-@media only screen and (min-width:1026px) and (max-width:2560px) {
+@media only screen and (min-width:1025px) {
     .product-section-01 {
         height: 600px;
     }
 
     .product-detail {
-        padding-top: 250px;
+        padding-top: 350px;
     }
 
     .ram:hover::before {
@@ -232,14 +232,14 @@
 
     .plus-sembol {
         margin-top: 35px;
-        padding: 5px 10px;
+        padding: 12px 10px;
     }
 
     .grid-3 {
         display: block;
-        top: 164px;
+        top: 252px;
         width: 40%;
-        right: 10px;
+        right: 25px;
     }
 
 
