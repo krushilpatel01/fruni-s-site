@@ -481,6 +481,26 @@ ul>li {
 
 
 /* shop page */
+.shop-title {
+    text-align: center;
+    animation: slideleft 1s ease-in-out both;
+}
+
+@keyframes slideleft {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+        transform: translateX(50%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+
+}
+
 .hero-img-wrap2 .box {
     width: 300px;
     height: 300px;
@@ -504,4 +524,17 @@ ul>li {
     100% {
         transform: translateY(0%);
     }
+}
+
+#about-us-page{
+    margin-top: 100px;
+}
+
+#our-services .feature{
+    text-align: center;
+}
+
+/* blog-page */
+.blog-section-blogpage {
+    padding: 50px 0px 50px 0px;
 }

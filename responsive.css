@@ -9,6 +9,13 @@
         margin: 0px 10px;
     }
 
+    .navbar-nav .nav-link {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.151);
+        backdrop-filter: 10px;
+        border-radius: 20px;
+    }
+
     .navbar-dark .navbar-toggler-icon {
         width: 100%;
         padding: 0px 10px;
@@ -91,6 +98,14 @@
 }
 
 @media only screen and (min-width:551px) and (max-width:768px) {
+
+    .navbar-nav .nav-link {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.151);
+        backdrop-filter: 10px;
+        border-radius: 20px;
+    }
+
     .grid-3 {
         margin: 10px 0px;
         top: 190px;
