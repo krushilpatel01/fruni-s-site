@@ -13,6 +13,7 @@
 .container {
     /* width: 1170px; */
     margin: 0 auto;
+    padding: 0px 0px 0px 10px;
 }
 
 .header-navbar {
@@ -133,6 +134,7 @@
     position: relative;
     height: 450px;
     display: block;
+    overflow: hidden;
 }
 
 .product-img {
@@ -441,11 +443,12 @@ footer {
 }
 
 .send-btn {
+    width: 25%;
     background-color: #3b5d50;
     border-radius: 20px;
     padding: 10px 10px;
     border: 0px;
-    margin: 0px 10px;
+    margin: 10px 10px;
 
 }
 
@@ -526,15 +529,69 @@ ul>li {
     }
 }
 
-#about-us-page{
+#about-us-page {
     margin-top: 100px;
 }
 
-#our-services .feature{
+#our-services .feature {
     text-align: center;
 }
 
 /* blog-page */
 .blog-section-blogpage {
     padding: 50px 0px 50px 0px;
+}
+
+#contact-detail {
+    margin-top: 50px;
+}
+
+#contact-detail .box {
+    width: 30%;
+    /* height: 60%; */
+    background-color: #3b5d50;
+    margin: 10px;
+    line-height: 60px;
+    border-radius: 10px;
+}
+
+#contact-detail .indicaters {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.contact-form {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.form-group-01{
+    display: flex;
+}
+
+.contact-form label {
+    font-size: 14px;
+    text-indent: 10px;
+    margin: 10px 0px;
+}
+
+.contact-form input {
+    border-radius: 10px;
+    padding: 10px 0px;
+    text-indent: 10px;
+}
+
+.contact-form textarea {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 0px;
+    text-indent: 10px;
+}
+
+.contact-form .btn{
+    width: 25%;
+    margin: 10px 20px;
+    padding: 10px 0px;
 }
